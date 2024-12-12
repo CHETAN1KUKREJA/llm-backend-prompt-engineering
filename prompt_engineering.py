@@ -5,7 +5,6 @@ import argparse
 import time
 import json
 
-
 def parse_args():
     parse = argparse.ArgumentParser(description="Prompt Engineering")
     parse.add_argument(
@@ -64,7 +63,6 @@ def process(tokenizer, model, prompt):
 
 if __name__ == "__main__":
     args = parse_args()
-
     with open(args.input_json) as f:
         input_json = json.load(f)
 

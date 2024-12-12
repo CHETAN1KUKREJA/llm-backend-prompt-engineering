@@ -6,7 +6,7 @@ conda create -n aimetaverse python=3.10 -y
 conda activate aimetaverse
 
 # install packages
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install transformers
 pip install modelscope==1.9.5
 pip install "transformers>=4.40.0"
